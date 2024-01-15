@@ -1,3 +1,4 @@
+let randomPosition = Math.floor(Math.random() * 5);
 let time = document.getElementById('timeLeft');
 let cronometerStyle = document.getElementById('cronometer');
 let text = document.getElementById('textContent');
@@ -10,7 +11,6 @@ let text4 = "Dr. Walker is the author of the International Bestseller, Why We Sl
 let text5 = "As a child, Downey was 'surrounded by drugs.' His father, a drug addict, allowed Downey to use marijuana at age six, an incident which his father later said he regretted. Downey later stated that drug use became an emotional bond between him and his father: 'When my dad and I would do drugs together, it was like him trying to express his love for me in the only way he knew how.' Eventually, Downey began spending every night abusing alcohol and 'making a thousand phone calls in pursuit of drugs'";
 let allTexts = [text1, text2, text3, text4, text5];
 let randomText = allTexts[randomPosition];
-let randomPosition = Math.floor(Math.random() * 5);
 let timePassed = 60;
 let currentIndex = 0;
 let charactersTypedNo = 0;
